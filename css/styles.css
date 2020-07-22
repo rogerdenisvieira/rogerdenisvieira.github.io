@@ -21,6 +21,7 @@
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
+  --dark-cyan: #137786;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
@@ -159,12 +160,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: var(--cyan);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: var(--dark-cyan);
   text-decoration: underline;
 }
 
@@ -6097,7 +6098,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  /* background-color: var(--gray-dark) !important; */
+  background-color: var(--cyan) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9799,11 +9801,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: var(--cyan) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #824027 !important;
+  color: var(--dark-cyan) !important;
 }
 
 .text-secondary {

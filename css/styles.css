@@ -10135,3 +10135,34 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.bar {
+  background-color: rgb(192, 192, 192);
+  width: 80%;
+  border-radius: 15px;
+}
+
+.skill {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.csharp {
+  width: 90%;
+}
+
+.java {
+  width: 80%;
+}
+
+.python {
+  width: 65%;
+}
+
+.js {
+  width: 40%;
+}

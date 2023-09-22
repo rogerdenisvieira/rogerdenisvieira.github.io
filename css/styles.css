@@ -10152,17 +10152,25 @@ section.resume-section .resume-section-content {
 }
 
 .csharp {
-  width: 90%;
+  width: 50%;
 }
 
 .java {
-  width: 80%;
-}
-
-.python {
-  width: 65%;
+  width: 40%;
 }
 
 .js {
-  width: 40%;
+  width: 45%;
+}
+
+.python {
+  width: 30%;
+}
+
+.go {
+  width: 15%;
+}
+
+.cpp {
+  width: 15%;
 }
